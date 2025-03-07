@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Home - Nitte Campus</title>
+  <link rel="icon" type="image/x-icon" href="">
+  
+  <meta charset="UTF-8">
+  <meta name="description" content="Map of Nitte Campus">
+  <meta name="keywords" content="Nitte, NMAMIT, JKSHIM, Nitte karkala, NSAM">
+  <meta name="author" content="Pratham Prabhakar, Prathama Shastry, etc...">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="30">
+  
+  <base href="" target="contentiframe">
+  
+  <style>
+body {
+  margin: 10;
+  font-family: Candara
+    padding: 10px;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: navy;
+  padding: 10px;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+    .div {
+      margin: 20px;
+      padding: 10px;
+    }
+
+</style>
+  
+</head>
+<body>
+  <div class="top-container">
+  <h3>Explore your campus like never before...</h3>
+  <p>select a pin on the map to see more</p>
+</div>
+
+  <div class="header" id="myHeader">
+    <header width=100%><h2>NITTE CAMPUS</h2><align=right><a href="https://www.wikipedia.org">Menu</a></align></header>
+	
+  </div>
+  <div>
+	<iframe src="https://www.google.com/maps/d/embed?mid=1Vg3Ah2Ry1FOxmjwWr3oZIX8ipI-WNU4&ehbc=2E312F&noprof=1" name="mapiframe" width=100% height="350"></iframe>
+	</div>
+  <div>
+    <iframe src="" name="contentiframe" width=100% height=1000></iframe>
+  </div>
+  
+  <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+  
+</body>
+</html>
