@@ -1,6 +1,6 @@
 # NitteCampus
 An online map of Nitte Campus
-link to website: nittecampus.pages.dev
+link to website: <a href="nittecampus.pages.dev">nittecampus.pages.dev</a>
 
 Features: 
   1. A well-designed website
