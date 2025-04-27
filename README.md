@@ -14,7 +14,7 @@ Made with:
   3. JavaScript
 
 
-Mentor:
+Mentor:<br />
   Dr. Naganna Chetty
   
 Team: 
