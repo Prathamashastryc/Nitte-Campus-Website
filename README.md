@@ -1,9 +1,9 @@
 # NitteCampus
-An online map of Nitte Campus</br>
+WEBSITE FOR AN ONLINE CAMPUS MAP</br>
 link to website: <a href="https://nittecampus.pages.dev">nittecampus.pages.dev</a>
 
 Features: 
-  1. A well-designed website
+  1. An easy to navigate website
   2. A working map
   3. Buildings, staff rooms and teacher's details
   4. Each class timetable
