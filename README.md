@@ -28,4 +28,3 @@ Team:
   7. Prathwik Shetty, NNM24IS171
 ---------------------------------------------------------------------------------------
 Contributers:
-https://github.com/Prathamashastryc
